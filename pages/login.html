@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/src/styles/login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+  crossorigin="anonymous"></script>
+</head>
+
+<body class="text-center vsc-initialized">
+  <main class="form-signin" onsubmit=login()>
+    <form>
+      <img class="mb-4" src="/src/images/logo-tempus.jpg" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Por favor, faça o login</h1>
+      
+      <div class="form-floating">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+        <label for="floatingPassword">Senha</label>
+      </div>
+      
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Lembre-me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+      <p class="mt-5 mb-3 text-muted">© Bootstrap-Vitor</p>
+    </form>
+  </main>
+</body>
+<script type="text/javascript" src="/scripts/login.js">
+ 
+</script>
+
+</html>
